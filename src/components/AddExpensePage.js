@@ -26,18 +26,3 @@ export default connect(
   undefined,
   mapDispatchToProps
 )(AddExpensePage);
-
-/** before refactor to class 
- * const AddExpensePage = props => (
-  <div>
-    <h1>Add Expense</h1>
-    <ExpenseForm
-      onSubmit={expense => {
-        // props.dispatch(addExpense(expense)); //before mapDispatchToProps
-        props.onSubmit(expense); //makes it easier to test
-        props.history.push('/');
-      }}
-    />
-  </div>
-);
- */

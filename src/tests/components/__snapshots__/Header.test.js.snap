@@ -12,19 +12,16 @@ exports[`should render Header Component correctly 1`] = `
   >
     Dashboard
   </NavLink>
-   
-  <span>
-     
-  </span>
   <NavLink
     activeClassName="is-active"
     to="/create"
   >
     Create Expense
   </NavLink>
-   
-  <span>
-     
-  </span>
+  <button
+    onClick={[Function]}
+  >
+    Logout
+  </button>
 </header>
 `;
