@@ -1,9 +1,15 @@
+//universal selector *
+* {
+  box-sizing: border-box; //removes default --default is content-box which adds the padding & border
+}
 html {
   font-size: 62.5%;
 }
 body {
+  color: $dark-grey;
   font-family: helvetica, arial, sans-serif;
   font-size: $m-size;
+  line-height: 1.6;
 }
 
 button {
